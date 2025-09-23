@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-header{
+    display: flex;
+    background-color: #215c97;
+    padding: 1rem;
+    gap: 2rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 80px;
+    margin-bottom: 1.5rem;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-left: 11.5rem;
+ 
+   
+   
+}
+
+.item1 {
+
+ background-color: hsl(33, 100%, 86%);
+ height: 180px;
+ width: 400px;
+ margin-left: 4rem;
+ margin-left: 11.5rem;
+margin-bottom: 1rem;
+border-radius: 5px;
+
+}
+
+
