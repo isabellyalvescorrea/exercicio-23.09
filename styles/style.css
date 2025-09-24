@@ -1,40 +1,164 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container-header{
+.container-header {
     display: flex;
-    background-color: #215c97;
-    padding: 1rem;
-    gap: 2rem;
-    color: #fff;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    background-color: #154c79;
+    color: #fff;
+    padding: 0 2rem;
     width: 1200px;
     height: 80px;
-    margin-bottom: 1.5rem;
-    
+    margin: auto;
 }
 
-h2 {
+.container-header h1 {
+    font-size: 2.7rem;
+    margin-left: 5rem;
+}
+
+.menu {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.8rem;
+margin-right: 10rem;
+}
+
+
+.content {
+    display: flex;
+    width: 1200px;
+    margin: 2rem auto;
+    gap: 2rem;
+}
+
+.post {
+    margin-bottom: 2rem;
+}
+
+.post h2 {
     font-size: 2.5rem;
-    margin-left: 11.5rem;
- 
-   
-   
+    margin-bottom: 1rem;
+}
+
+.post-content {
+    display: flex;
+    gap: 1.5rem;
 }
 
 .item1 {
-
- background-color: hsl(33, 100%, 86%);
- height: 180px;
- width: 400px;
- margin-left: 4rem;
- margin-left: 11.5rem;
-margin-bottom: 1rem;
-border-radius: 5px;
-
+    background-color: #f4a261; 
+    height: 180px;
+    width: 400px;
+    border-radius: 5px;
 }
 
+.item1.large {
+    height: 500px;
+}
+
+.text p {
+    background-color: #4a90e2;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+
+.sidebar {
+    background-color: #154c79;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    height: 800px
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #4a90e2;
+    margin: 0 auto 1rem;
+    
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile h3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.profile p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    height: 100px;
+    font-size: 1.7rem;
+    border-radius: 5px;
+}
+
+
+footer {
+    width: 1200px;
+    height: 60px;
+    background-color: #154c79;
+    margin: 2rem auto 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 5px;
+    
+}
+
+
+footer {
+    background-color: #154c79;  
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 1200px; 
+    margin-top: 2rem;
+}
+    
+
+
+footer p {
+    font-size: 2rem;
+padding-left: 5rem;
+}
+
+.icons {
+    display: flex;
+    gap:2rem;
+}
+
+.icones img {
+    width: 40px;
+    height: 40px;
+}
 
